@@ -1,8 +1,9 @@
 # esx_eden_garage
 ## ENGLISH
 
-This is the same exact script from somewhere else with Garages and Pounds.. i just update it to support latest db changes
-
+This is the same exact script from somewhere else with Garages and Impounds.. i just update it to support latest db changes
+I tried to find the source of this script and i think it's property of snyx95.. but this version has Impounds too.
+IF YOU'RE THE ORIGINAL AUTHOR OF THIS SCRIPT LET ME KNOW YOU AND YOUR INTENTIONS WITH MY RELEASE
 ##
 
 
