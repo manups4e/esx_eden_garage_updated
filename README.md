@@ -1,4 +1,11 @@
 # esx_eden_garage
+## ENGLISH
+
+This is the same exact script from somewhere else with Garages and Pounds.. i just update it to support latest db changes
+
+##
+
+
 Garage privé basé sur ESX
 
 Requirement : 
