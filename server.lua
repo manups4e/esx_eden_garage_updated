@@ -33,7 +33,6 @@ ESX.RegisterServerCallback('eden_garage:stockv',function(source,cb, vehicleProps
 	local xPlayer = ESX.GetPlayerFromId(_source)
 	local vehicules = getPlayerVehicles(xPlayer.getIdentifier())
 	local plate = vehicleProps.plate
-	print(plate)
 	
 		for _,v in pairs(vehicules) do
 			if(plate == plate)then
@@ -126,7 +125,7 @@ function getPlayerVehicles(identifier)
 end
 --Fin Recupere les vehicules
 
---Debug
+--[[Debug
 AddEventHandler('eden_garage:debug', function(var)
 	print(to_string(var))
 end)
@@ -169,7 +168,7 @@ function to_string( tbl )
     end
 end
 --Fin Debug
-
+]]
 
 -- Fonction qui change les etats sorti en rentré lors d'un restart
 AddEventHandler('onMySQLReady', function()
@@ -193,8 +192,8 @@ end)
 
 
 --logger dans la console
-AddEventHandler('eden_garage:logging', function(logging)
-	RconPrint(logging)
-end)
+--AddEventHandler('eden_garage:logging', function(logging)
+--	RconPrint(logging)
+--end)
 
 --fin de logger dans la console
